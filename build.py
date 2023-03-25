@@ -53,7 +53,7 @@ if validKey("PLATFORM_EXTRAS"):
     buildCmd += " PLATFORM_EXTRAS=" + conf["PLATFORM_EXTRAS"]
 if validKey("PLATFORM_SIZE"):
     buildCmd += " PLATFORM_SIZE=" + conf["PLATFORM_SIZE"]
-if validKey("PLATFORM_DEFS ="):
+if validKey("PLATFORM_DEFS"):
     buildCmd += " PLATFORM_DEFS=" + conf["PLATFORM_DEFS"]
 for option in conf["extraOptions"]:
     buildCmd += " " + option + "=1"
