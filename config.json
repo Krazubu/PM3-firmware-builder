@@ -4,10 +4,7 @@
     "PLATFORM": "PM3GENERIC",
     "PLATFORM_EXTRAS": "",
     "PLATFORM_SIZE": "256",
-    "SKIP_HITAG": "1",
-    "SKIP_LF": "1",
-    "SKIP_ISO14443a":"1",
     "PLATFORM_DEFS" : "-DWITH_FLASH",
-    "extraOptions": [],
+    "extraOptions": [ "SKIP_HITAG=1", "SKIP_LF=1", "SKIP_ISO14443a=1"],
     "buildS19": false
 }
