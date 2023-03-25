@@ -9,5 +9,5 @@
     "SKIP_ISO14443a":"1",
     "PLATFORM_DEFS" : "-DWITH_FLASH",
     "extraOptions": [],
-    "buildS19": true
+    "buildS19": false
 }
